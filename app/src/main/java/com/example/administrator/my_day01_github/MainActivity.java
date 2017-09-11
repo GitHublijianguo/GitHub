@@ -3,6 +3,7 @@ package com.example.administrator.my_day01_github;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
@@ -17,12 +18,12 @@ public class MainActivity extends AppCompatActivity {
 
     private void initData() {
         for (int i = 0; i < 10; i++) {
-
-
+            List<String> list = new ArrayList<>();
+            list.add("123");
         }
     }
 
     private void init() {
-        int a=1;
+        int a = 1;
     }
 }
