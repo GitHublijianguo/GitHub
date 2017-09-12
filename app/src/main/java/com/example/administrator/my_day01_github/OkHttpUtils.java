@@ -6,5 +6,13 @@ package com.example.administrator.my_day01_github;
 
 public class OkHttpUtils {
     private static OkHttpUtils utils;
-
+//
+    //
+    //
+    //
+    //
+    //
+    public static synchronized OkHttpUtils getUtils(){
+        return utils;
+    }
 }
